@@ -168,3 +168,44 @@ a:hover {
     border-color: var(--dark-color);
     box-shadow: 5px 5px 0 -2px var(--primary-color);
 }
+
+
+.bg-gray {
+    background-color: rgba(254, 196, 72, 0.1)
+}
+
+.bg-dark {
+    background-color: var(--dark-color) !important;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+
+}
+
+.home-section {
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 108px;
+}
+
+@media (max-width: 767px) {
+    .home-section {
+        padding-bottom: 70px;
+    }
+}
+
+.home-image img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 58%;
+    border: 2px solid #000;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
